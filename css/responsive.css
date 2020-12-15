@@ -1,0 +1,71 @@
+@media all and (max-width: 991px){
+
+    .contact-area .form input:nth-child(1), 
+    .contact-area .form input:nth-child(2) {
+        width: 94%;
+        margin-top: 30px;
+    }
+    .service-item {
+        width: 50%;
+    }
+    .caption {
+        margin-top: 161px;
+        width: 100%;
+        float: none !important;
+        text-align: center;
+    }
+
+}
+@media all and (max-width: 767px){
+
+    .service-item {
+        width: 85%;
+        margin: auto;
+    }
+    .contact-area .form input:nth-child(1), 
+    .contact-area .form input:nth-child(2) {
+        display: block;
+        width: 94.3%;
+        margin: 27px auto;
+    }
+    .work-demo .work-item {
+        margin: 28px auto;
+        width: 88%;
+    }
+    .work-demo .work-item .slide-captions i {
+        margin-top: 25%;
+    }
+    .skill-right .skill-img {
+        margin: auto;
+    }
+    .about .details {
+        width: 95%;
+    }
+    .footer .footer-sec-1 h3,
+    .footer .footer-sec-1 p {
+        text-align: center;
+    }
+    .footer .footer-sec-3 {
+        text-align: center;
+    }
+
+}
+@media all and (max-width: 500px){
+
+    .brand .brand-item {
+        width: 100%;
+        float: none;
+        margin: 25px 2.5%;
+    }
+    .brand .brand-item img {
+        width: 18%;
+    }
+    .testimonials .container {
+        width: 100%;
+    }
+    .work-process .work-detaile {
+        width: 80%;
+        margin: 38px auto;
+    }
+
+}

@@ -1,0 +1,412 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: BD-template
+	Template URI: http://www.bd.com
+	Description: ====================.
+	Author: Ayman Alif
+	Author URI: http://www.aymanalif.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+
+    1. header area
+    2. about us area
+    3.our skill area
+    4.our work area
+    5.our work process area
+    6.our services area
+    7.testimonials area
+    8.brand area
+    9.contact area
+    10.footer area 
+
+-----------------------------------------------------------------------------------*/
+
+/* 1. header area is start */
+
+.header {
+    width: 100%;
+    background-image: url('../images/best-wallpapers-for-desktop.jpg');
+    background-size: cover;
+    padding: 37px 0 180px 0;
+    background-position: center;
+}
+.logo-area h2 {
+    color: #f93c4e;
+}
+.menu-area {
+    text-align: right;
+}
+.menu-area ul li {
+    display: inline;
+    margin: 0 1.5%;
+}
+.menu-area ul li a {
+    display: inline;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .09em;
+}
+.mobile-menu a span {
+    font-size: 30px;
+    color: white;
+}
+.mobile-menu ul li a {
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
+.caption {
+    margin-top: 161px;
+    width: 469px;
+    background: #00000085;
+}
+.caption h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.caption p {
+    color: #acacac;
+    font-size: 18px;
+    margin: 29px 0;
+    line-height: 27px;
+}
+.caption a {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 16px 49px;
+    background: #12c9c4;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* 2.about us area is start */
+
+.about {
+    padding: 100px 0;
+}
+.about h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}   
+.about .details {
+    width: 56%;
+    margin: 25px auto;
+ } 
+ .about .details p {
+    color: #8c8c8c;
+    font-size: 15px;
+    line-height: 24px;
+ }    
+
+
+ /* 3.our skill area is start */
+
+.skill {
+    width: 100%;
+    padding: 142px 0;
+    background: #f8f9f9;
+    overflow: hidden;
+}
+.container-left {
+    width: 80%;
+    margin: auto;
+}
+.container-left h2 {
+    margin: 24px 0;
+    color: #222222;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.container-left h3 {
+    margin: 12px 0;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+}
+.progress {
+    height: 3px;
+    background: #d9d9d9;
+    border-radius: 0;
+    margin-bottom: 38px;
+}
+.progress .progress-bar {
+    width: 60%;
+    height: 100%;
+    background: #22bebd;
+}
+.skill-right .skill-img {
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+}
+.skill-right .skill-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+/* 4.our work area is start */
+
+.work .work-hader {
+    padding: 95px 0;
+    text-align: center;
+    background: #12c9c4;
+}
+.work .work-hader ul li {
+    display: inline-block;
+    margin:0 1% ;
+}
+.work .work-hader ul li .work-icon {
+    float: left;
+}
+.work .work-hader ul li .work-icon i {
+    color: #fff;
+    font-size: 43px;
+}
+.work .work-hader ul li .work-cap {
+    width: 189px;
+    padding: 0;
+    overflow: hidden;
+}
+.work .work-hader ul li .work-cap h3 {
+    margin: 5px 35px;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+.work .work-hader ul li .work-cap p {
+    margin-left: 35px;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.work-demo .work-item {
+    padding: 0;
+    height: 334px;
+    position: relative;
+    overflow: hidden;
+}
+.work-demo .work-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work-demo .work-item .slide-captions {
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #ffee5f;
+    z-index: 200;
+    transition: 0.4s;
+}
+.work-demo .work-item:hover .slide-captions {
+    right: 0;
+}
+.work-demo .work-item .slide-captions i {
+    margin-top: 50%;
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+}
+.work-footer {
+    padding: 38px 0;
+    text-align: center;
+    background: #f6f6f6;
+}
+.work-footer a {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7d7d7d;
+}
+
+/* 5.our work process area is start */
+
+.work-process {
+    padding: 96px 0;
+}
+.work-process h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.work-process .work-detaile {
+    width: 34%;
+    margin: 38px auto;
+}
+.work-process .work-detaile p {
+    color: #a1a1a1;
+}
+.work-process .container img {
+    width: 100%;
+}
+
+
+/* 6.our services area is start */
+
+
+.services {
+    padding: 70px 0;
+    background: #f6f6f6;
+}
+.service-item {
+    margin-top: 30px;
+}
+.services .service-item i {
+    color: #acacac;
+    font-size: 40px;
+}
+.services .service-item h3 {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 26px 0 12px 0;
+}
+.services .service-item p {
+    color: rgb(134, 134, 134);
+}
+
+
+/* 7. testimonials area is start */
+
+.testimonials {
+    padding: 177px 0;
+    background: #12c9c4;
+}
+.testimonials .container {
+    width: 63%;
+}
+.testimonials .container p:nth-child(1) {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.testimonials .container p:nth-child(2) {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* 8.brand area is start  */
+
+.brand {
+    padding: 40px 0;
+    background: #ffffff;
+}
+.brand .brand-item {
+    width: 15%;
+    float: left;
+    margin: 0 2.5%;
+}
+.brand .brand-item img {
+    width: 54%;
+}
+
+/* 9.contact area is start */
+
+.contact-area {
+    padding: 100px 0;
+    background: #f6f6f6;
+}
+.contact-area h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-area p {
+    text-transform: uppercase;
+    color: gray;
+    width: 53%;
+    margin: 36px auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact-area .form {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.contact-area .form input:nth-child(1),
+.contact-area .form input:nth-child(2){
+    display: inline-block;
+    width: 45%;
+    margin: 0 13px;
+    height: 50px;
+    border: 1px solid #f6f6f6;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.contact-area .form input:nth-child(3){
+    display: block;
+    width: 94.3%;
+    margin: 27px auto;
+    height: 50px;
+    border: 1px solid #f6f6f6;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.contact-area .form textarea{
+    display: block;
+    width: 94.3%;
+    margin: 27px auto;
+    height: 172px;
+    border: 1px solid #f6f6f6;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contact-area .form input:nth-child(5){
+    display: block;
+    margin: 27px auto;
+    height: 60px;
+    border: 1px solid #f6f6f6;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 195px;
+    background: #12c9c4;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+
+
+/* 10.footer area is start */
+
+.footer {
+    padding: 100px 0;
+    background: #141414;
+}
+.footer .footer-sec-1 h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.footer .footer-sec-1 p {
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    margin:10px 0;
+}
+.footer .footer-sec-2 p {
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    margin:10px 0;
+}
+.footer .footer-sec-3 ul li a {
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    margin:10px 0;
+}
+
